@@ -20,7 +20,7 @@ body{
     gap: 20px;
     flex-direction: column;
     padding: 40px;
-    margin-top: 20px;
+    margin-top: 30px;
     align-items: center;
 }
 
@@ -38,11 +38,13 @@ button{
     margin: 10px;
     border-radius: 10px;
     width: 80px;
+    transition: all 0.07s;
 }
 
 .sketch-pad{
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    
 
 }
 
@@ -51,4 +53,24 @@ button{
     border: solid 2px white;
     background-color: navy;
     height: 30px;
+    transition: all 0.07s;
+}
+
+.footer{
+    margin: 30px;
+    text-align: center;
+    font-weight: 30px;
+}
+
+.scale{
+transform: scale(1.2);
+}
+
+input{
+    margin-left: 23px;
+    margin-top: 16px;
+}
+
+label{
+    font-size: 20px;
 }

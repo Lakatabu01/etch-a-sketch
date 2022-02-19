@@ -12,33 +12,34 @@
 <div class="first-grp">
 
     <div>
-        <input id="placeholder" placeholder="Size of board" value="16" onchange="changeSize(this.value)"/>
+        <input id="placeholder" placeholder="Choose a resolution" value="16" onchange="changeSize(this.value)"/>
         <button>Set size</button>
     </div>
 
     <div class="buttons">
         <div>
-        <button onclick="changeColor('black')">Black</button>
+        <button class="one" onclick="changeColor('black')">Black</button>
         </div>
 
         <div>
-        <button onclick="changeColor('white')">Eraser</button>
+        <button class="one"  onclick="changeColor('white')">Eraser</button>
         </div>
 
         <div>
-        <button onclick="changeColor('grey')">Grey</button>
+        <button class="one"  onclick="changeColor('grey')">Grey</button>
         </div>
 
         <div>
-        <button onclick="changeColor('random')">Random</button>
+        <button class="one"  onclick="changeColor('random')">Rainbow</button>
         </div>
 
         <div>
-        <button onclick="resetBoard()">Reset</button>
+        <button class="one"  onclick="resetBoard()">Reset</button>
         </div>
 
         <div>
-        <button>Choose color</button><br>
+        <label>Select preferred color</label>
+        <input id="color" type="color">
         </div>
     </div>
    
@@ -52,6 +53,7 @@
     
     </div>
 
+    <div class="footer">Created by Olanrewaju</div>
 </div>
     <script src="extension.js"> </script>
 </body>
