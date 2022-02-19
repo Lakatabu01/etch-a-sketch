@@ -3,3 +3,52 @@
     width: 500px;
     height: 500px;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(150deg, pink,  navy, black) ;
+    flex-direction: row;
+    gap: 10px;
+    font-family: cursive;
+    color: white;
+
+}
+
+.first-grp{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+button{
+    background-color: navy;
+    border: solid 2px white;
+    color: white;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 80px;
+}
+
+.sketch-pad{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+#placeholder{
+    color: white;
+    border: solid 2px white;
+    background-color: navy;
+    height: 30px;
+}

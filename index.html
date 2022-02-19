@@ -7,22 +7,49 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body >
-<div class="parent">
+<body>
 
-    <div class="sketch-pad>"> SKETCH PAD</div>
-    <div class="content">
-    <div class="board"></div>
-    <div class="buttons">
-        <button>Black</button>
-        <button>White</button>
-        <button>Random</button>
-        <button>Reset</button>
-    </div>
+<div class="first-grp">
+
     <div>
-        <input placeholder="Size of board" value="16" onChange="changeSize(this.value)"/>
+        <input id="placeholder" placeholder="Size of board" value="16" onchange="changeSize(this.value)"/>
         <button>Set size</button>
     </div>
+
+    <div class="buttons">
+        <div>
+        <button onclick="changeColor('black')">Black</button>
+        </div>
+
+        <div>
+        <button onclick="changeColor('white')">Eraser</button>
+        </div>
+
+        <div>
+        <button onclick="changeColor('grey')">Grey</button>
+        </div>
+
+        <div>
+        <button onclick="changeColor('random')">Random</button>
+        </div>
+
+        <div>
+        <button onclick="resetBoard()">Reset</button>
+        </div>
+
+        <div>
+        <button>Choose color</button><br>
+        </div>
+    </div>
+   
+</div>
+
+<div class="parent">
+
+    <div class="sketch-pad"> SKETCH PAD</div>
+    <div class="content">
+    <div class="board"></div>
+    
     </div>
 
 </div>
